@@ -36,6 +36,20 @@
             android:layout_height="180dp"
             android:scaleType="centerInside"></FrameLayout>
 
+        <!-- This container hold the Body-->
+        <FrameLayout
+            android:id="@+id/body_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"></FrameLayout>
+
+        <!-- This container holds the legs-->
+        <FrameLayout
+            android:id="@+id/leg_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"></FrameLayout>
+
 
     </LinearLayout>
 
